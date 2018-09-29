@@ -42,12 +42,4 @@ This is My all config file or files
 ### Llinux
 > deepin的配置挂在这里: [deepin](doc/deepin.md)
 
-- Apps
-  - [linuxbrew](http://linuxbrew.sh) :: mac package manager for linuxbrew
-  - [zsh](http://ohmyz.sh) :: Your terminal never felt this good before
-  -
-
-- config
-
-
 ### Other
