@@ -1,5 +1,4 @@
 # What?
-Hi I'm Demi Kozo4
 This is My all config file or files
 
 ### Windows
@@ -40,6 +39,7 @@ This is My all config file or files
   - [小箭头去除](https://files.catbox.moe/9t2q6o.bat)
 
 ### Llinux
-> deepin的配置挂在这里: [deepin](doc/deepin.md)
+
+### Macos
 
 ### Other

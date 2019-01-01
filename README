@@ -1,0 +1,31 @@
+▓█████▄  ▒█████  ▄▄▄█████▓  █████▒██▓ ██▓    ▓█████   ██████
+▒██▀ ██▌▒██▒  ██▒▓  ██▒ ▓▒▓██   ▒▓██▒▓██▒    ▓█   ▀ ▒██    ▒
+░██   █▌▒██░  ██▒▒ ▓██░ ▒░▒████ ░▒██▒▒██░    ▒███   ░ ▓██▄
+░▓█▄   ▌▒██   ██░░ ▓██▓ ░ ░▓█▒  ░░██░▒██░    ▒▓█  ▄   ▒   ██▒
+░▒████▓ ░ ████▓▒░  ▒██▒ ░ ░▒█░   ░██░░██████▒░▒████▒▒██████▒▒
+ ▒▒▓  ▒ ░ ▒░▒░▒░   ▒ ░░    ▒ ░   ░▓  ░ ▒░▓  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░
+ ░ ▒  ▒   ░ ▒ ▒░     ░     ░      ▒ ░░ ░ ▒  ░ ░ ░  ░░ ░▒  ░ ░
+ ░ ░  ░ ░ ░ ░ ▒    ░       ░ ░    ▒ ░  ░ ░      ░   ░  ░  ░
+   ░        ░ ░                   ░      ░  ░   ░  ░      ░
+ ░
+
+--------
+
+
+Hi,This is my dotfiles configuration file
+
+----who install?
+
+  git clone https://github.com/d1y/dotfiles
+  cd dotfiles
+  chmod u+x install.sh
+  ./install.sh
+
+----CATME
+
+  home: http://kozo4.ooo
+  mail: chenhonzhou@gmail.com
+  browser: chrome/opera/firefox
+  editor: atom/sublime
+  platforms: win10/deepin/macos/ubuntu/manjaro
+  chat: I don't need social networking
