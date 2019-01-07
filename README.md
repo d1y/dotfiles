@@ -20,6 +20,7 @@ Hi,This is my dotfiles configuration file
 ---- CATME
 
 ```json
+{
     "home": "http://kozo4.ooo",
     "mail": "chenhonzhou@gmail.com",
     "browser": "chrome/opera/firefox",
@@ -28,6 +29,7 @@ Hi,This is my dotfiles configuration file
     "chat": "I don't need social networking",
     "start": "2016-09-10 23:22:20",
     "end": "last forever"
+}
 ```  
 
 **I have always felt that I am weak and incompetent, that I am not worthy of others, so I have never tried to find it.**
