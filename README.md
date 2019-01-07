@@ -10,14 +10,42 @@
    |  ,-.    ,-'         |  /
    |  | (   |            | /
    )  |  \  `.___________|/
+   2  3   3  3
    `--'   `--'
+   ______  __  __   __ /\      _         _     __  _  _            
+|  _  \/  | \ \ / /|/\|    | |       | |   / _|(_)| |           
+| | | |`| |  \ V /       __| |  ___  | |_ | |_  _ | |  ___  ___
+| | | | | |   \ /       / _` | / _ \ | __||  _|| || | / _ \/ __|
+| |/ / _| |_  | |      | (_| || (_) || |_ | |  | || ||  __/\__ \
+|___/  \___/  \_/       \__,_| \___/  \__||_|  |_||_| \___||___/
+
+
 
 ```
 
 
 Hi,This is my dotfiles configuration file
 
----- CATME
+----=> **install**
+```bash
+  sh -c "$(wget https://raw.github.com/d1y/dotfiles/master/tools/install.sh -O -)"
+```
+
+----=> **shell**
+```bash
+├── bbr.sh                # bbr加速
+├── deepin.sh             # deepin初始化
+├── github-issuse-back.sh # github-issues 备份
+├── proxychains.sh        # 代理
+├── pythonhttp.sh         # py-http-server
+├── ssh_port.sh           # ssh端口修改
+├── ssr.sh                # ssh安装脚本
+├── tmux.sh               # tmux
+└── vpstest.sh            # vps测试
+└── ssr                   # ssr start
+```
+
+----=> **CATME**
 
 ```json
 {

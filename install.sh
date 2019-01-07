@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
-if [ $1 = 'tree']
-then
-	echo '--------'
-	tree sh/ | grep '.sh'
-	echo '--------'
-	exit
-fi
 echo -e Welcome to "\033[32;49;1mD1Y\033[39;49;0m"
 echo -e '→ \033[32;31;1minstall for configure ↓\033[39;49;0m'
-echo -e "-- ^ install script ^ --
+echo -e "-- \033[33;31;1m→ install script →\033[39;49;0m --
 1 ── bbr.sh
 2 ── deepin.sh
 3 ── github-issuse-back.sh
@@ -68,7 +61,6 @@ case $REPLY in
 			then
 				./sh/ssr.sh
 		fi
-		# reset
 		;;
 	8)
 		sudo chmod u+x sh/tmux.sh
@@ -83,5 +75,6 @@ case $REPLY in
 	10)
 		sudo cp sh/ssr /usr/local/bin/
 		sudo chmod 775 /usr/local/bin/ssr
+		echo -e '→ install bin PATH in: \033[32;31;1m/usr/local/bin/ssr\033[39;49;0m'
 		;;
 esac

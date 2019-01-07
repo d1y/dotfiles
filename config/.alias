@@ -1,6 +1,10 @@
 alias gfw='proxychains'
 alias vizsh='vi $HOME/.zshrc'
-alias bs='browser-sync --server --files ".." ."'
+alias bs='browser-sync --files --server "**" .'
 alias py='python -m SimpleHTTPServer 4000 .'
-# more: ip.sb ifconfig.me
+alias t1='tree -L 1'
+alias du='ncdu'
+alias cat='bat'
+alias ping='usr/local/bin/prettyping'
+# more: ip.sb cip.cc ip-addr.info
 alias ip='curl myip.ipip.net'
