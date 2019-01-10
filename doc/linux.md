@@ -74,3 +74,7 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 - `google-chrome` :: https://www.chrome64bit.com/
 - `SafeEyes` :: 神器,必备,不用说了吧!
 - `sublime-text`
+- `Albert` :: `linux` - 启动神器,必装!!
+- `oneko` :: 桌面宠物
+- `Devdocs` :: `linux`下`dash`替代品,最牛逼的`API`的文档!
+- `epiphany` :: `GNOME`下最轻量的浏览器,在`eos`下更优雅！
