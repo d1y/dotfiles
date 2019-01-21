@@ -28,7 +28,7 @@ Hi,This is my dotfiles configuration file
 
 ----=> **install**
 ```bash
-  sh -c "$(wget https://raw.github.com/d1y/dotfiles/master/tools/install.sh -O -)"
+  sh -c "$(wget https://raw.github.com/d1y/dotfiles/master/install.sh -O -)"
 ```
 
 ----=> **shell**

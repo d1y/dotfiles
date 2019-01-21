@@ -12,6 +12,7 @@ echo -e "-- \033[33;31;1m→ install script →\033[39;49;0m --
 8 ── tmux.sh
 9 ── vpstest.sh
 10 ─ ssr
+11 - HOSTS
 -----------------------"
 read -p '=> input Number: '
 case $REPLY in
@@ -76,5 +77,16 @@ case $REPLY in
 		sudo cp sh/ssr /usr/local/bin/
 		sudo chmod 775 /usr/local/bin/ssr
 		echo -e '→ install bin PATH in: \033[32;31;1m/usr/local/bin/ssr\033[39;49;0m'
+		;;
+	11)
+		echo -e 'Are you confirm: Y/n'
+		read confirm
+		if [ $confirm = 'Y' -a $confirm = 'y' ]
+			then
+				sudo wget $HOME/hosts https://hosts.nfz.moe/full/hosts
+				sudo cat $HOME/hosts >> /etc/hosts
+				sudo rm $HOME/hosts
+		fi
+		echo 'over'
 		;;
 esac
