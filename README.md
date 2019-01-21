@@ -8,44 +8,51 @@
     /`.          ,'-`----Y   |
    (            ;        |   '
    |  ,-.    ,-'         |  /
-   |  | (   |            | /
+   |  | (   |    { D1Y } | /
    )  |  \  `.___________|/
    2  3   3  3
    `--'   `--'
-   ______  __  __   __ /\      _         _     __  _  _            
-|  _  \/  | \ \ / /|/\|    | |       | |   / _|(_)| |           
-| | | |`| |  \ V /       __| |  ___  | |_ | |_  _ | |  ___  ___
-| | | | | |   \ /       / _` | / _ \ | __||  _|| || | / _ \/ __|
-| |/ / _| |_  | |      | (_| || (_) || |_ | |  | || ||  __/\__ \
-|___/  \___/  \_/       \__,_| \___/  \__||_|  |_||_| \___||___/
-
-
-
 ```
 
 
 Hi,This is my dotfiles configuration file
 
-----=> **install**
+## **install**
 ```bash
   sh -c "$(wget https://raw.github.com/d1y/dotfiles/master/install.sh -O -)"
 ```
 
-----=> **shell**
+## **tree**
 ```bash
-├── bbr.sh                # bbr加速
-├── deepin.sh             # deepin初始化
-├── github-issuse-back.sh # github-issues 备份
-├── proxychains.sh        # 代理
-├── pythonhttp.sh         # py-http-server
-├── ssh_port.sh           # ssh端口修改
-├── ssr.sh                # ssh安装脚本
-├── tmux.sh               # tmux
-└── vpstest.sh            # vps测试
-└── ssr                   # ssr start
+.
+├── config
+│  ├── .alias
+│  ├── .Brewfile
+│  ├── .OmegaOptions.bak
+│  ├── .proxychains.conf
+│  └── .vimrc
+│── doc
+│   ├── linux.md
+│   ├── macos.md
+│   ├── README.md
+│   └── windows.md
+├── files
+│   └── monaco.ttf
+├── install.sh
+└── sh
+    ├── bbr.sh
+    ├── deepin.sh
+    ├── github-issuse-back.sh
+    ├── proxychains.sh
+    ├── pythonhttp.sh
+    ├── ssh_port.sh
+    ├── ssr
+    ├── ssr.sh
+    ├── tmux.sh
+    └── vpstest.sh
 ```
 
-----=> **CATME**
+## **CATME**
 
 ```json
 {
@@ -58,7 +65,7 @@ Hi,This is my dotfiles configuration file
     "start": "2016-09-10 23:22:20",
     "end": "last forever"
 }
-```  
+```
 
 **I have always felt that I am weak and incompetent, that I am not worthy of others, so I have never tried to find it.**
 
